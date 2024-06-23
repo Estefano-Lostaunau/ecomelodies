@@ -32,7 +32,7 @@ export default props => {
     if (!users.length)
         return (
             <div className="message">
-                {message || 'No user suggestions for you RN'}
+                {message || 'No hay sugerencias de usuarios'}
             </div>
         )
 
